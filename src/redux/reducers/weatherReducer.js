@@ -3,7 +3,7 @@ const initialState = {
   weatherData: null,
 };
 
-const weatherReducer = (state = initialState, action) => {
+const initialState = (state = initialState, action) => {
   switch (action.type) {
     case "SET_WEATHER_DATA":
       return {
